@@ -1,0 +1,55 @@
+/* Add some basic styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Style the form elements */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  label {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    flex-basis: 70%;
+    padding: 12px 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    flex-basis: 30%;
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the forecast data elements */
+  #location, #temperature, #humidity, #windSpeed, #weather {
+    margin: 10px 0;
+    padding: 12px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  #error{
+      color: red;
+      font-weight: bold;
+      margin: 10px 0;
+  }
+  
+  
